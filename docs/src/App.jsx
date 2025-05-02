@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Camera, Github, Twitter, Globe, Copy, Check } from 'lucide-react';
+import { Github, Twitter, Globe, Copy, Check } from 'lucide-react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
