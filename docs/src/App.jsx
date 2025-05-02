@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Github, Twitter, Globe, Copy, Check } from 'lucide-react';
-
+import arhaan from "./assets/arhaan.jpg";
 // Add this to your CSS or use a CSS-in-JS solution
 const styles = `
   
@@ -742,7 +742,7 @@ function App() {
             <div className="md:col-span-1">
               <div className="bg-gray-800 rounded-xl p-6 text-center border border-gray-700 hover-scale">
                 <div className="w-32 h-32 bg-gray-700 rounded-full mx-auto mb-6 overflow-hidden animate-float">
-                  <img src="/api/placeholder/128/128" alt="Arhaan Siddiquee" className="w-full h-full object-cover" />
+                  <img src={arhaan} alt="Arhaan Siddiquee" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-2xl font-medium text-white mb-2 font-syne">ARHAAN SIDDQUEE</h3>
                 <p className="text-gray-300 mb-6 font-space">Frontend Developer & UI/UX Enthusiast</p>
